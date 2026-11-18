@@ -1,0 +1,17 @@
+/home/amiko/Desktop/ATMProject/ATM.Infrastructure/bin/Debug/net10.0/ATM.Infrastructure.deps.json
+/home/amiko/Desktop/ATMProject/ATM.Infrastructure/bin/Debug/net10.0/ATM.Infrastructure.runtimeconfig.json
+/home/amiko/Desktop/ATMProject/ATM.Infrastructure/bin/Debug/net10.0/ATM.Infrastructure.dll
+/home/amiko/Desktop/ATMProject/ATM.Infrastructure/bin/Debug/net10.0/ATM.Infrastructure.pdb
+/home/amiko/Desktop/ATMProject/ATM.Infrastructure/bin/Debug/net10.0/ATM.Domain.dll
+/home/amiko/Desktop/ATMProject/ATM.Infrastructure/bin/Debug/net10.0/ATM.Domain.pdb
+/home/amiko/Desktop/ATMProject/ATM.Infrastructure/obj/Debug/net10.0/ATM.Infrastructure.csproj.AssemblyReference.cache
+/home/amiko/Desktop/ATMProject/ATM.Infrastructure/obj/Debug/net10.0/ATM.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/home/amiko/Desktop/ATMProject/ATM.Infrastructure/obj/Debug/net10.0/ATM.Infrastructure.AssemblyInfoInputs.cache
+/home/amiko/Desktop/ATMProject/ATM.Infrastructure/obj/Debug/net10.0/ATM.Infrastructure.AssemblyInfo.cs
+/home/amiko/Desktop/ATMProject/ATM.Infrastructure/obj/Debug/net10.0/ATM.Infrastructure.csproj.CoreCompileInputs.cache
+/home/amiko/Desktop/ATMProject/ATM.Infrastructure/obj/Debug/net10.0/ATM.Infr.C5D68921.Up2Date
+/home/amiko/Desktop/ATMProject/ATM.Infrastructure/obj/Debug/net10.0/ATM.Infrastructure.dll
+/home/amiko/Desktop/ATMProject/ATM.Infrastructure/obj/Debug/net10.0/refint/ATM.Infrastructure.dll
+/home/amiko/Desktop/ATMProject/ATM.Infrastructure/obj/Debug/net10.0/ATM.Infrastructure.pdb
+/home/amiko/Desktop/ATMProject/ATM.Infrastructure/obj/Debug/net10.0/ATM.Infrastructure.genruntimeconfig.cache
+/home/amiko/Desktop/ATMProject/ATM.Infrastructure/obj/Debug/net10.0/ref/ATM.Infrastructure.dll

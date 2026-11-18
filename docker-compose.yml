@@ -1,0 +1,15 @@
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2025-latest
+    container_name: atm-sqlserver
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_SA_PASSWORD: "AtmProject2026@"
+    ports:
+      - "1433:1433"
+    volumes:
+      - atm_sqlserver_data:/var/opt/mssql
+    restart: unless-stopped
+
+volumes:
+  atm_sqlserver_data:

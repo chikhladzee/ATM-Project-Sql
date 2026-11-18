@@ -1,0 +1,15 @@
+/home/amiko/Desktop/ATMProject/ATM.Application/bin/Debug/net10.0/ATM.Application.deps.json
+/home/amiko/Desktop/ATMProject/ATM.Application/bin/Debug/net10.0/ATM.Application.dll
+/home/amiko/Desktop/ATMProject/ATM.Application/bin/Debug/net10.0/ATM.Application.pdb
+/home/amiko/Desktop/ATMProject/ATM.Application/bin/Debug/net10.0/ATM.Domain.dll
+/home/amiko/Desktop/ATMProject/ATM.Application/bin/Debug/net10.0/ATM.Domain.pdb
+/home/amiko/Desktop/ATMProject/ATM.Application/obj/Debug/net10.0/ATM.Application.csproj.AssemblyReference.cache
+/home/amiko/Desktop/ATMProject/ATM.Application/obj/Debug/net10.0/ATM.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/amiko/Desktop/ATMProject/ATM.Application/obj/Debug/net10.0/ATM.Application.AssemblyInfoInputs.cache
+/home/amiko/Desktop/ATMProject/ATM.Application/obj/Debug/net10.0/ATM.Application.AssemblyInfo.cs
+/home/amiko/Desktop/ATMProject/ATM.Application/obj/Debug/net10.0/ATM.Application.csproj.CoreCompileInputs.cache
+/home/amiko/Desktop/ATMProject/ATM.Application/obj/Debug/net10.0/ATM.Appl.8E22C9C4.Up2Date
+/home/amiko/Desktop/ATMProject/ATM.Application/obj/Debug/net10.0/ATM.Application.dll
+/home/amiko/Desktop/ATMProject/ATM.Application/obj/Debug/net10.0/refint/ATM.Application.dll
+/home/amiko/Desktop/ATMProject/ATM.Application/obj/Debug/net10.0/ATM.Application.pdb
+/home/amiko/Desktop/ATMProject/ATM.Application/obj/Debug/net10.0/ref/ATM.Application.dll
