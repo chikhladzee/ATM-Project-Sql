@@ -14,7 +14,10 @@
     <configurations />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d32e183-b932-4ee4-9e76-c59dbac0025f" name="Changes" comment="" />
+    <list default="true" id="4d32e183-b932-4ee4-9e76-c59dbac0025f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ATMProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ATMProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM.UI/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ATM.UI/Program.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,6 +43,31 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1795011449" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="master" />
+                    <option name="lastUsedInstant" value="1795011448" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/ATM.Application/Services/Implementations/AccountService.cs" root0="FORCE_HIGHLIGHTING" />
@@ -79,61 +107,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.473028823362798" />
-      <entry key="MS500" value="1.8609493040914202" />
-      <entry key="S2" value="1.9916286669216823" />
-      <entry key="S5" value="2.427316671491061" />
-      <entry key="S10" value="3.134970409930669" />
-      <entry key="S30" value="4.168202764565811" />
-      <entry key="S60" value="4.55009438530014" />
-      <entry key="M2" value="4.76863894007203" />
-      <entry key="M5" value="4.999815936505667" />
-      <entry key="M10" value="5.283447428829765" />
-      <entry key="M15" value="5.540240924671899" />
-      <entry key="M30" value="6.44593488556085" />
-      <entry key="H1" value="8.424538533871821" />
-      <entry key="H2" value="11.203681983269194" />
-      <entry key="H4" value="14.078790174429374" />
-      <entry key="D1" value="72.54580844672432" />
-      <entry key="W1" value="191.2644634723701" />
+      <entry key="MS100" value="1.603945255009254" />
+      <entry key="MS500" value="3.08724118951079" />
+      <entry key="S2" value="3.734435358022709" />
+      <entry key="S5" value="3.8914443012586006" />
+      <entry key="S10" value="4.01098227129075" />
+      <entry key="S30" value="5.134610700425418" />
+      <entry key="S60" value="6.384002020818261" />
+      <entry key="M2" value="7.453811641361215" />
+      <entry key="M5" value="8.395069134147317" />
+      <entry key="M10" value="8.953744575476199" />
+      <entry key="M15" value="9.307334081172215" />
+      <entry key="M30" value="10.309048143172252" />
+      <entry key="H1" value="12.334656137367205" />
+      <entry key="H2" value="15.143781224176898" />
+      <entry key="H4" value="18.041113547565782" />
+      <entry key="D1" value="76.51344233889668" />
+      <entry key="W1" value="195.25227235708218" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.4030455994085758E-20" />
-      <entry key="MS500" value="1.0700753434033636E-4" />
-      <entry key="S2" value="0.10170764284194204" />
-      <entry key="S5" value="0.40081266469969695" />
-      <entry key="S10" value="0.6330976849725097" />
-      <entry key="S30" value="0.8624637897849114" />
-      <entry key="S60" value="1.0301410268956797" />
-      <entry key="M2" value="1.6713864467980608" />
-      <entry key="M5" value="4.6741051844140555" />
-      <entry key="M10" value="8.44985260985774" />
-      <entry key="M15" value="10.772343292525395" />
-      <entry key="M30" value="14.932493737527924" />
-      <entry key="H1" value="19.43109079071296" />
-      <entry key="H2" value="23.45924435050088" />
-      <entry key="H4" value="26.61331053970746" />
-      <entry key="D1" value="52.48068797933576" />
-      <entry key="W1" value="79.2291180829589" />
+      <entry key="MS100" value="5.435760298672726E-188" />
+      <entry key="MS500" value="3.524131127497028E-38" />
+      <entry key="S2" value="4.33274385381032E-10" />
+      <entry key="S5" value="1.7976502767574939E-4" />
+      <entry key="S10" value="0.013407648338272307" />
+      <entry key="S30" value="0.2386170645869917" />
+      <entry key="S60" value="0.5418474054064014" />
+      <entry key="M2" value="1.2121797740315348" />
+      <entry key="M5" value="4.110498974699317" />
+      <entry key="M10" value="7.924049230692872" />
+      <entry key="M15" value="10.320693307909696" />
+      <entry key="M30" value="14.616106037363219" />
+      <entry key="H1" value="19.224137004893425" />
+      <entry key="H2" value="23.333981801927756" />
+      <entry key="H4" value="26.542163467569125" />
+      <entry key="D1" value="52.45727855773076" />
+      <entry key="W1" value="79.22406843637714" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.4161798444399647" />
-      <entry key="MS500" value="1.8467216475930113" />
-      <entry key="S2" value="2.027276817116871" />
-      <entry key="S5" value="2.69784323341224" />
-      <entry key="S10" value="3.6546038236385283" />
-      <entry key="S30" value="4.975546211542133" />
-      <entry key="S60" value="5.5494725509646665" />
-      <entry key="M2" value="6.422484909325846" />
-      <entry key="M5" value="9.663807966695812" />
-      <entry key="M10" value="13.726202220675711" />
-      <entry key="M15" value="16.306745187753407" />
-      <entry key="M30" value="21.373926537941415" />
-      <entry key="H1" value="27.852110653666465" />
-      <entry key="H2" value="34.660421856799964" />
-      <entry key="H4" value="40.69048400955223" />
-      <entry key="D1" value="125.02563341921595" />
-      <entry key="W1" value="270.4933672865321" />
+      <entry key="MS100" value="1.493279615922188" />
+      <entry key="MS500" value="3.0257127178944976" />
+      <entry key="S2" value="3.714488272044409" />
+      <entry key="S5" value="3.8831439003926795" />
+      <entry key="S10" value="4.017699001536201" />
+      <entry key="S30" value="5.356530885510497" />
+      <entry key="S60" value="6.908942769086685" />
+      <entry key="M2" value="8.65290676394009" />
+      <entry key="M5" value="12.496528932024546" />
+      <entry key="M10" value="16.87106490105894" />
+      <entry key="M15" value="19.62238466104976" />
+      <entry key="M30" value="24.920723227280813" />
+      <entry key="H1" value="31.55529981802109" />
+      <entry key="H2" value="38.47526585710951" />
+      <entry key="H4" value="44.58166160011002" />
+      <entry key="D1" value="128.96985776931547" />
+      <entry key="W1" value="274.4761264661159" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -154,7 +182,7 @@
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",

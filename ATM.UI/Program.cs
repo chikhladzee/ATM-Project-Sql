@@ -46,13 +46,11 @@ using (IServiceScope scope = serviceProvider.CreateScope())
   IUserService userService = scope.ServiceProvider
     .GetRequiredService<IUserService>();
 
-  // Create default admin if it doesn't exist
   await userService.EnsureAdminExistsAsync(
     "admin",
     "Admin123!"
   );
 
-  // Authentication
   AuthMenu authMenu = scope.ServiceProvider
     .GetRequiredService<AuthMenu>();
 
@@ -63,7 +61,6 @@ using (IServiceScope scope = serviceProvider.CreateScope())
     return;
   }
 
-  // Navigate according to user role
   switch (user.Role)
   {
     case UserRole.Client:
