@@ -8,6 +8,7 @@ using ATM.Infrastructure.Repositories;
 using ATM.UI.Menus;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
+using Spectre.Console;
 
 ServiceCollection services = new ServiceCollection();
 
@@ -34,6 +35,8 @@ services.AddScoped<IAccountService, AccountService>();
 services.AddScoped<ITransactionService, TransactionService>();
 services.AddScoped<ILoanService, LoanService>();
 services.AddScoped<IClientDashboardService, ClientDashboardService>();
+services.AddScoped<IAdminDashboardService, AdminDashboardService>();
+
 // MENUS
 services.AddScoped<AuthMenu>();
 services.AddScoped<ClientMenu>();
@@ -41,45 +44,46 @@ services.AddScoped<AdminMenu>();
 
 ServiceProvider serviceProvider = services.BuildServiceProvider();
 
-using (IServiceScope scope = serviceProvider.CreateScope())
-{
-  IUserService userService = scope.ServiceProvider
-    .GetRequiredService<IUserService>();
-
-  await userService.EnsureAdminExistsAsync(
-    "admin",
-    "Admin123!"
-  );
-
-  AuthMenu authMenu = scope.ServiceProvider
-    .GetRequiredService<AuthMenu>();
-
-  User? user = await authMenu.RunAsync();
-
-  if (user == null)
+while (true)
+  using (IServiceScope scope = serviceProvider.CreateScope())
   {
-    return;
+    IUserService userService = scope.ServiceProvider
+      .GetRequiredService<IUserService>();
+
+    await userService.EnsureAdminExistsAsync(
+      "admin",
+      "Admin123!"
+    );
+
+    AuthMenu authMenu = scope.ServiceProvider
+      .GetRequiredService<AuthMenu>();
+
+    User? user = await authMenu.RunAsync();
+
+    if (user == null)
+      break;
+
+    switch (user.Role)
+    {
+      case UserRole.Client:
+      {
+        ClientMenu clientMenu = scope.ServiceProvider
+          .GetRequiredService<ClientMenu>();
+
+        await clientMenu.RunAsync(user);
+        break;
+      }
+
+      case UserRole.Admin:
+      {
+        AdminMenu adminMenu = scope.ServiceProvider
+          .GetRequiredService<AdminMenu>();
+
+        await adminMenu.RunAsync(user);
+        break;
+      }
+    }
   }
 
-  switch (user.Role)
-  {
-    case UserRole.Client:
-    {
-      ClientMenu clientMenu = scope.ServiceProvider
-        .GetRequiredService<ClientMenu>();
-
-      await clientMenu.RunAsync(user);
-      break;
-    }
-
-    case UserRole.Admin:
-    {
-      AdminMenu adminMenu = scope.ServiceProvider
-        .GetRequiredService<AdminMenu>();
-
-      await adminMenu.RunAsync(user);
-      break;
-    }
-  }
-}
-
+AnsiConsole.Clear();
+AnsiConsole.MarkupLine("[green]Goodbye![/]");

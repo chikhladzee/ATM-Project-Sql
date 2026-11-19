@@ -15,8 +15,69 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d32e183-b932-4ee4-9e76-c59dbac0025f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ATMProject/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ATMProject/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ATMProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ATMProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM.Application/bin/Debug/net10.0/ATM.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ATM.Application/bin/Debug/net10.0/ATM.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM.Application/bin/Debug/net10.0/ATM.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ATM.Application/bin/Debug/net10.0/ATM.Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM.Application/bin/Debug/net10.0/ATM.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ATM.Application/bin/Debug/net10.0/ATM.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM.Application/bin/Debug/net10.0/ATM.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ATM.Application/bin/Debug/net10.0/ATM.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM.Application/obj/Debug/net10.0/ATM.Application.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ATM.Application/obj/Debug/net10.0/ATM.Application.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM.Application/obj/Debug/net10.0/ATM.Application.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ATM.Application/obj/Debug/net10.0/ATM.Application.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM.Application/obj/Debug/net10.0/ATM.Application.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ATM.Application/obj/Debug/net10.0/ATM.Application.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM.Application/obj/Debug/net10.0/ATM.Application.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ATM.Application/obj/Debug/net10.0/ATM.Application.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM.Application/obj/Debug/net10.0/ATM.Application.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ATM.Application/obj/Debug/net10.0/ATM.Application.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM.Application/obj/Debug/net10.0/ATM.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ATM.Application/obj/Debug/net10.0/ATM.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM.Application/obj/Debug/net10.0/ATM.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ATM.Application/obj/Debug/net10.0/ATM.Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM.Application/obj/Debug/net10.0/ref/ATM.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ATM.Application/obj/Debug/net10.0/ref/ATM.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM.Application/obj/Debug/net10.0/refint/ATM.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ATM.Application/obj/Debug/net10.0/refint/ATM.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM.Application/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/ATM.Application/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM.Application/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/ATM.Application/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM.Domain/bin/Debug/net10.0/ATM.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ATM.Domain/bin/Debug/net10.0/ATM.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM.Domain/bin/Debug/net10.0/ATM.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ATM.Domain/bin/Debug/net10.0/ATM.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM.Domain/obj/Debug/net10.0/ATM.Domain.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ATM.Domain/obj/Debug/net10.0/ATM.Domain.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM.Domain/obj/Debug/net10.0/ATM.Domain.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ATM.Domain/obj/Debug/net10.0/ATM.Domain.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM.Domain/obj/Debug/net10.0/ATM.Domain.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ATM.Domain/obj/Debug/net10.0/ATM.Domain.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM.Domain/obj/Debug/net10.0/ATM.Domain.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ATM.Domain/obj/Debug/net10.0/ATM.Domain.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM.Domain/obj/Debug/net10.0/ATM.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ATM.Domain/obj/Debug/net10.0/ATM.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM.Domain/obj/Debug/net10.0/ATM.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ATM.Domain/obj/Debug/net10.0/ATM.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM.Domain/obj/Debug/net10.0/ref/ATM.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ATM.Domain/obj/Debug/net10.0/ref/ATM.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM.Domain/obj/Debug/net10.0/refint/ATM.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ATM.Domain/obj/Debug/net10.0/refint/ATM.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM.Domain/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/ATM.Domain/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM.Domain/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/ATM.Domain/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM.Infrastructure/bin/Debug/net10.0/ATM.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ATM.Infrastructure/bin/Debug/net10.0/ATM.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM.Infrastructure/bin/Debug/net10.0/ATM.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ATM.Infrastructure/bin/Debug/net10.0/ATM.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM.Infrastructure/bin/Debug/net10.0/ATM.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ATM.Infrastructure/bin/Debug/net10.0/ATM.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM.Infrastructure/bin/Debug/net10.0/ATM.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ATM.Infrastructure/bin/Debug/net10.0/ATM.Infrastructure.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM.Infrastructure/obj/Debug/net10.0/ATM.Infrastructure.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ATM.Infrastructure/obj/Debug/net10.0/ATM.Infrastructure.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM.Infrastructure/obj/Debug/net10.0/ATM.Infrastructure.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ATM.Infrastructure/obj/Debug/net10.0/ATM.Infrastructure.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM.Infrastructure/obj/Debug/net10.0/ATM.Infrastructure.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ATM.Infrastructure/obj/Debug/net10.0/ATM.Infrastructure.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM.Infrastructure/obj/Debug/net10.0/ATM.Infrastructure.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ATM.Infrastructure/obj/Debug/net10.0/ATM.Infrastructure.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM.Infrastructure/obj/Debug/net10.0/ATM.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ATM.Infrastructure/obj/Debug/net10.0/ATM.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM.Infrastructure/obj/Debug/net10.0/ATM.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ATM.Infrastructure/obj/Debug/net10.0/ATM.Infrastructure.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM.Infrastructure/obj/Debug/net10.0/ref/ATM.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ATM.Infrastructure/obj/Debug/net10.0/ref/ATM.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM.Infrastructure/obj/Debug/net10.0/refint/ATM.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ATM.Infrastructure/obj/Debug/net10.0/refint/ATM.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM.Infrastructure/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/ATM.Infrastructure/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM.Infrastructure/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/ATM.Infrastructure/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM.UI/Menus/AdminMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ATM.UI/Menus/AdminMenu.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ATM.UI/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ATM.UI/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM.UI/bin/Debug/net10.0/ATM.Application.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ATM.UI/bin/Debug/net10.0/ATM.Application.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM.UI/bin/Debug/net10.0/ATM.Application.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ATM.UI/bin/Debug/net10.0/ATM.Application.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM.UI/bin/Debug/net10.0/ATM.Domain.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ATM.UI/bin/Debug/net10.0/ATM.Domain.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM.UI/bin/Debug/net10.0/ATM.Domain.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ATM.UI/bin/Debug/net10.0/ATM.Domain.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM.UI/bin/Debug/net10.0/ATM.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ATM.UI/bin/Debug/net10.0/ATM.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM.UI/bin/Debug/net10.0/ATM.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ATM.UI/bin/Debug/net10.0/ATM.Infrastructure.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM.UI/bin/Debug/net10.0/ATM.UI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ATM.UI/bin/Debug/net10.0/ATM.UI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM.UI/bin/Debug/net10.0/ATM.UI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ATM.UI/bin/Debug/net10.0/ATM.UI.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM.UI/obj/Debug/net10.0/ATM.UI.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ATM.UI/obj/Debug/net10.0/ATM.UI.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM.UI/obj/Debug/net10.0/ATM.UI.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ATM.UI/obj/Debug/net10.0/ATM.UI.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM.UI/obj/Debug/net10.0/ATM.UI.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ATM.UI/obj/Debug/net10.0/ATM.UI.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM.UI/obj/Debug/net10.0/ATM.UI.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ATM.UI/obj/Debug/net10.0/ATM.UI.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM.UI/obj/Debug/net10.0/ATM.UI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ATM.UI/obj/Debug/net10.0/ATM.UI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM.UI/obj/Debug/net10.0/ATM.UI.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ATM.UI/obj/Debug/net10.0/ATM.UI.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM.UI/obj/Debug/net10.0/ref/ATM.UI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ATM.UI/obj/Debug/net10.0/ref/ATM.UI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM.UI/obj/Debug/net10.0/refint/ATM.UI.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ATM.UI/obj/Debug/net10.0/refint/ATM.UI.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM.UI/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/ATM.UI/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ATM.UI/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/ATM.UI/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,21 +132,27 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/ATM.Application/Services/Implementations/AccountService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ATM.Application/Services/Implementations/AdminDashboardService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ATM.Application/Services/Implementations/ClientDashboardService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ATM.Application/Services/Implementations/LoanService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ATM.Application/Services/Implementations/TransactionService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ATM.Application/Services/Interfaces/IAccountService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ATM.Application/Services/Interfaces/IAdminDashboardService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ATM.Application/Services/Interfaces/IClientDashboardService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ATM.Application/Services/Interfaces/ILoanService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ATM.Application/Services/Interfaces/ITransactionService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ATM.Application/Services/Interfaces/IUserService.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/ATM.Application/Services/UserService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ATM.Domain/Interfaces/IAccountRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ATM.Domain/Interfaces/ILoanRequestRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ATM.Domain/Interfaces/ITransactionRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ATM.Domain/Interfaces/IUserRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ATM.Domain/Models/DTOs/AdminDashboardDto.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ATM.Domain/Models/DTOs/ClientDashboardDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ATM.Domain/Models/DTOs/DailyFinancialStatsDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ATM.Domain/Models/DTOs/DailyTransactionStatsDto.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ATM.Domain/Models/DTOs/LoanRequestDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ATM.Domain/Models/DTOs/TopLoanApplicantDto.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ATM.Domain/Models/DTOs/TopUserStatsDto.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ATM.Domain/Models/DTOs/TransactionDto.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ATM.Domain/Models/DTOs/UserDto.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ATM.Domain/Models/Entities/Account.cs" root0="FORCE_HIGHLIGHTING" />
@@ -107,61 +174,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.603945255009254" />
-      <entry key="MS500" value="3.08724118951079" />
-      <entry key="S2" value="3.734435358022709" />
-      <entry key="S5" value="3.8914443012586006" />
-      <entry key="S10" value="4.01098227129075" />
-      <entry key="S30" value="5.134610700425418" />
-      <entry key="S60" value="6.384002020818261" />
-      <entry key="M2" value="7.453811641361215" />
-      <entry key="M5" value="8.395069134147317" />
-      <entry key="M10" value="8.953744575476199" />
-      <entry key="M15" value="9.307334081172215" />
-      <entry key="M30" value="10.309048143172252" />
-      <entry key="H1" value="12.334656137367205" />
-      <entry key="H2" value="15.143781224176898" />
-      <entry key="H4" value="18.041113547565782" />
-      <entry key="D1" value="76.51344233889668" />
-      <entry key="W1" value="195.25227235708218" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="2.0625205425599302E-237" />
+      <entry key="M2" value="4.5418003508892877E-119" />
+      <entry key="M5" value="5.262251962195567E-48" />
+      <entry key="M10" value="6.1288417148548176E-24" />
+      <entry key="M15" value="8.932934232877582E-16" />
+      <entry key="M30" value="1.4981316196799724E-7" />
+      <entry key="H1" value="0.002165151173601769" />
+      <entry key="H2" value="0.2884689139205196" />
+      <entry key="H4" value="3.5670092168187533" />
+      <entry key="D1" value="65.78245320306175" />
+      <entry key="W1" value="206.80863993088943" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="5.435760298672726E-188" />
-      <entry key="MS500" value="3.524131127497028E-38" />
-      <entry key="S2" value="4.33274385381032E-10" />
-      <entry key="S5" value="1.7976502767574939E-4" />
-      <entry key="S10" value="0.013407648338272307" />
-      <entry key="S30" value="0.2386170645869917" />
-      <entry key="S60" value="0.5418474054064014" />
-      <entry key="M2" value="1.2121797740315348" />
-      <entry key="M5" value="4.110498974699317" />
-      <entry key="M10" value="7.924049230692872" />
-      <entry key="M15" value="10.320693307909696" />
-      <entry key="M30" value="14.616106037363219" />
-      <entry key="H1" value="19.224137004893425" />
-      <entry key="H2" value="23.333981801927756" />
-      <entry key="H4" value="26.542163467569125" />
-      <entry key="D1" value="52.45727855773076" />
-      <entry key="W1" value="79.22406843637714" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0000000063184828" />
+      <entry key="S10" value="1.0001368726757522" />
+      <entry key="S30" value="1.10705727782045" />
+      <entry key="S60" value="1.5666271606138382" />
+      <entry key="M2" value="2.3037414960575493" />
+      <entry key="M5" value="3.1495377120641317" />
+      <entry key="M10" value="3.5394077964800053" />
+      <entry key="M15" value="3.6844906284132684" />
+      <entry key="M30" value="3.837863515844004" />
+      <entry key="H1" value="3.9189245570909743" />
+      <entry key="H2" value="4.14267028699029" />
+      <entry key="H4" value="6.569918560796626" />
+      <entry key="D1" value="42.97250213627296" />
+      <entry key="W1" value="85.8925506518797" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.493279615922188" />
-      <entry key="MS500" value="3.0257127178944976" />
-      <entry key="S2" value="3.714488272044409" />
-      <entry key="S5" value="3.8831439003926795" />
-      <entry key="S10" value="4.017699001536201" />
-      <entry key="S30" value="5.356530885510497" />
-      <entry key="S60" value="6.908942769086685" />
-      <entry key="M2" value="8.65290676394009" />
-      <entry key="M5" value="12.496528932024546" />
-      <entry key="M10" value="16.87106490105894" />
-      <entry key="M15" value="19.62238466104976" />
-      <entry key="M30" value="24.920723227280813" />
-      <entry key="H1" value="31.55529981802109" />
-      <entry key="H2" value="38.47526585710951" />
-      <entry key="H4" value="44.58166160011002" />
-      <entry key="D1" value="128.96985776931547" />
-      <entry key="W1" value="274.4761264661159" />
+      <entry key="MS100" value="1.0205033716233838E-10" />
+      <entry key="MS500" value="0.010040674511479475" />
+      <entry key="S2" value="0.31654883695083164" />
+      <entry key="S5" value="0.6312135208306546" />
+      <entry key="S10" value="0.7946234659260466" />
+      <entry key="S30" value="1.032463533326234" />
+      <entry key="S60" value="1.5269417750748888" />
+      <entry key="M2" value="2.2823630448986" />
+      <entry key="M5" value="3.140318516444321" />
+      <entry key="M10" value="3.5346468082185547" />
+      <entry key="M15" value="3.6812792452236733" />
+      <entry key="M30" value="3.836238250882402" />
+      <entry key="H1" value="3.9202716785978304" />
+      <entry key="H2" value="4.430711067563054" />
+      <entry key="H4" value="10.13657923611183" />
+      <entry key="D1" value="108.75433060938163" />
+      <entry key="W1" value="292.700976957086" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -169,6 +236,9 @@
   &quot;fromUser&quot;: false
 }</component>
   <component name="ProjectId" id="3M8ZgytMly5PCtDCnaVy3BuQbAN" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -179,6 +249,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.readMode.enableVisualFormatting": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "cidr.known.project.marker": "true",
@@ -187,7 +258,9 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm"
+    "nodejs_package_manager_path": "npm",
+    "rider.code.cleanup.on.save": "true",
+    "settings.editor.selected.configurable": "actions.on.save"
   }
 }]]></component>
   <component name="RunManager" selected=".NET Project.ATM.UI">

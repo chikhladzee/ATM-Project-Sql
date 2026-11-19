@@ -169,3 +169,4 @@
 /home/amiko/Desktop/ATMProject/ATM.UI/bin/Debug/net10.0/tr/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
 /home/amiko/Desktop/ATMProject/ATM.UI/bin/Debug/net10.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
 /home/amiko/Desktop/ATMProject/ATM.UI/bin/Debug/net10.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+/home/amiko/Desktop/ATMProject/ATM.UI/obj/Debug/net10.0/ATM.UI.sourcelink.json

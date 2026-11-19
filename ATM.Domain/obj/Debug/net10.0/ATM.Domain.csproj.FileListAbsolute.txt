@@ -9,3 +9,4 @@
 /home/amiko/Desktop/ATMProject/ATM.Domain/obj/Debug/net10.0/refint/ATM.Domain.dll
 /home/amiko/Desktop/ATMProject/ATM.Domain/obj/Debug/net10.0/ATM.Domain.pdb
 /home/amiko/Desktop/ATMProject/ATM.Domain/obj/Debug/net10.0/ref/ATM.Domain.dll
+/home/amiko/Desktop/ATMProject/ATM.Domain/obj/Debug/net10.0/ATM.Domain.sourcelink.json

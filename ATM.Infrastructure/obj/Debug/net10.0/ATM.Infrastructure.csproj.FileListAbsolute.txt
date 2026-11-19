@@ -15,3 +15,4 @@
 /home/amiko/Desktop/ATMProject/ATM.Infrastructure/obj/Debug/net10.0/ATM.Infrastructure.pdb
 /home/amiko/Desktop/ATMProject/ATM.Infrastructure/obj/Debug/net10.0/ATM.Infrastructure.genruntimeconfig.cache
 /home/amiko/Desktop/ATMProject/ATM.Infrastructure/obj/Debug/net10.0/ref/ATM.Infrastructure.dll
+/home/amiko/Desktop/ATMProject/ATM.Infrastructure/obj/Debug/net10.0/ATM.Infrastructure.sourcelink.json
