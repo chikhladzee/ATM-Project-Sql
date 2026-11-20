@@ -6,11 +6,13 @@ namespace ATM.UI.Menus;
 
 public class AuthMenu
 {
+  private readonly IPasswordRecoveryService _passwordRecoveryService;
   private readonly IUserService _userService;
 
-  public AuthMenu(IUserService userService)
+  public AuthMenu(IUserService userService, IPasswordRecoveryService passwordRecoveryService)
   {
     _userService = userService;
+    _passwordRecoveryService = passwordRecoveryService;
   }
 
   public async Task<User?> RunAsync()
@@ -31,6 +33,7 @@ public class AuthMenu
           .AddChoices(
             "Login",
             "Register",
+            "Forgot Password",
             "Exit"
           )
       );
@@ -49,6 +52,10 @@ public class AuthMenu
 
         case "Register":
           await RegisterAsync();
+          break;
+
+        case "Forgot Password":
+          await ForgotPasswordAsync();
           break;
 
         case "Exit":
@@ -138,5 +145,62 @@ public class AuthMenu
     {
       AnsiConsole.MarkupLine($"[red]{ex.Message}[/]");
     }
+  }
+
+  private async Task ForgotPasswordAsync()
+  {
+    Console.Clear();
+
+    string username = AnsiConsole.Ask<string>(
+      "Enter your username:");
+
+    bool result = await _passwordRecoveryService.SendRecoveryCodeAsync(username);
+
+    if (!result)
+    {
+      AnsiConsole.MarkupLine("[red]User not found![/]");
+      return;
+    }
+
+    AnsiConsole.MarkupLine(
+      "[green]Recovery code has been generated![/]");
+
+    string code = AnsiConsole.Ask<string>(
+      "Enter your recovery code:");
+
+    string newPassword = AnsiConsole.Prompt(
+      new TextPrompt<string>("Enter new password:")
+        .PromptStyle("red")
+        .Secret());
+
+    string confirmPassword = AnsiConsole.Prompt(
+      new TextPrompt<string>("Confirm new password:")
+        .PromptStyle("red")
+        .Secret());
+
+    if (string.IsNullOrWhiteSpace(newPassword) || newPassword.Length < 6)
+    {
+      AnsiConsole.MarkupLine(
+        "[red]Password must contain at least 6 characters![/]");
+      return;
+    }
+
+    if (newPassword != confirmPassword)
+    {
+      AnsiConsole.MarkupLine("[red]Passwords do not match![/]");
+      return;
+    }
+
+    bool resetResult = await _passwordRecoveryService.ResetPasswordAsync(
+      username,
+      code,
+      newPassword);
+
+    if (resetResult)
+      AnsiConsole.MarkupLine(
+        "[green]Password successfully changed![/]");
+    else
+      AnsiConsole.MarkupLine(
+        "[red]Invalid or expired recovery code![/]");
   }
 }

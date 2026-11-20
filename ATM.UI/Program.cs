@@ -28,6 +28,7 @@ services.AddScoped<IUserRepository, UserRepository>();
 services.AddScoped<IAccountRepository, AccountRepository>();
 services.AddScoped<ITransactionRepository, TransactionRepository>();
 services.AddScoped<ILoanRequestRepository, LoanRequestRepository>();
+services.AddScoped<IPasswordRecoveryRepository, PasswordRecoveryRepository>();
 
 // Services
 services.AddScoped<IUserService, UserService>();
@@ -36,6 +37,7 @@ services.AddScoped<ITransactionService, TransactionService>();
 services.AddScoped<ILoanService, LoanService>();
 services.AddScoped<IClientDashboardService, ClientDashboardService>();
 services.AddScoped<IAdminDashboardService, AdminDashboardService>();
+services.AddScoped<IPasswordRecoveryService, PasswordRecoveryService>();
 
 // MENUS
 services.AddScoped<AuthMenu>();

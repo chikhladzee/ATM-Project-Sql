@@ -13,4 +13,5 @@ public class User
   public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
   public Account? Account { get; set; }
   public List<LoanRequest> LoanRequests { get; set; } = new List<LoanRequest>();
+  public PasswordRecovery? PasswordRecovery { get; set; }
 }

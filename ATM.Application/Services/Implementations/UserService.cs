@@ -37,11 +37,9 @@ public class UserService : IUserService
       await _userRepository.GetByUsernameAsync(username);
 
     if (existingUser != null)
-    {
       throw new InvalidOperationException(
         "Username already exists."
       );
-    }
 
     User user = new User
     {
@@ -67,26 +65,18 @@ public class UserService : IUserService
   {
     if (string.IsNullOrWhiteSpace(username) ||
         string.IsNullOrWhiteSpace(password))
-    {
       return null;
-    }
 
     User? user = await _userRepository.GetByUsernameAsync(
       username.Trim()
     );
 
-    if (user == null)
-    {
-      return null;
-    }
+    if (user == null) return null;
 
     bool isPasswordValid =
       BCrypt.Net.BCrypt.Verify(password, user.PasswordHash);
 
-    if (!isPasswordValid)
-    {
-      return null;
-    }
+    if (!isPasswordValid) return null;
 
     return user;
   }
@@ -98,11 +88,9 @@ public class UserService : IUserService
     if (existingUser != null)
     {
       if (existingUser.Role != UserRole.Admin)
-      {
         throw new InvalidOperationException(
           "This username already belongs to a Client."
         );
-      }
 
       return;
     }
@@ -124,11 +112,9 @@ public class UserService : IUserService
     User? admin = await _userRepository.GetByIdAsync(adminId);
 
     if (admin == null || admin.Role != UserRole.Admin)
-    {
       throw new UnauthorizedAccessException(
         "Only administrators can view users."
       );
-    }
 
     List<User> users = await _userRepository.GetAllAsync();
 
@@ -141,6 +127,29 @@ public class UserService : IUserService
       Role = user.Role,
       CreatedAt = user.CreatedAt
     }).ToList();
+  }
+
+  public async Task<bool> ChangePasswordAsync(
+    int userId,
+    string currentPassword,
+    string newPassword)
+  {
+    User? user = await _userRepository.GetByIdAsync(userId);
+
+    if (user == null)
+      return false;
+
+    bool isCurrentPasswordValid =
+      BCrypt.Net.BCrypt.Verify(currentPassword, user.PasswordHash);
+
+    if (!isCurrentPasswordValid)
+      return false;
+
+    user.PasswordHash = BCrypt.Net.BCrypt.HashPassword(newPassword);
+
+    await _userRepository.UpdateAsync(user);
+
+    return true;
   }
 
   private void ValidateRegistration(

@@ -10,20 +10,23 @@ namespace ATM.UI.Menus;
 public class ClientMenu
 {
   private readonly IAccountService _accountService;
-  private readonly ITransactionService _transactionService;
-  private readonly ILoanService _loanService;
   private readonly IClientDashboardService _dashboardService;
+  private readonly ILoanService _loanService;
+  private readonly ITransactionService _transactionService;
+  private readonly IUserService _userService;
 
   public ClientMenu(
     IAccountService accountService,
     ITransactionService transactionService,
     ILoanService loanService,
-    IClientDashboardService dashboardService)
+    IClientDashboardService dashboardService,
+    IUserService userService)
   {
     _accountService = accountService;
     _transactionService = transactionService;
     _loanService = loanService;
     _dashboardService = dashboardService;
+    _userService = userService;
   }
 
   public async Task RunAsync(User user)
@@ -53,6 +56,7 @@ public class ClientMenu
             "Transaction History",
             "Request Loan",
             "My Loan Requests",
+            "Change Password",
             "Logout"
           )
       );
@@ -85,6 +89,10 @@ public class ClientMenu
 
         case "My Loan Requests":
           await ShowMyLoansAsync(user.Id);
+          break;
+
+        case "Change Password":
+          await ChangePasswordAsync(user);
           break;
 
         case "Logout":
@@ -314,14 +322,14 @@ public class ClientMenu
 
       AnsiConsole.Write(
         new FigletText("MY DASHBOARD")
-              .Centered()
-              .Color(Color.Green)
-        );
+          .Centered()
+          .Color(Color.Green)
+      );
 
       Panel balancePanel = new Panel(
         new Markup(
           $"[bold green]{dashboard.Balance:N2} GEL[/]"
-          ))
+        ))
       {
         Header = new PanelHeader("Current Balance"),
         Border = BoxBorder.Rounded,
@@ -339,17 +347,17 @@ public class ClientMenu
       table.AddRow(
         "Total Deposits",
         $"[green]+{dashboard.TotalDeposits:N2} GEL[/]"
-        );
+      );
 
       table.AddRow(
         "Total Withdrawals",
         $"[red]-{dashboard.TotalWithdrawals:N2} GEL[/]"
-        );
+      );
 
       table.AddRow(
         "Transaction Count",
         dashboard.TransactionCount.ToString()
-        );
+      );
 
       AnsiConsole.Write(table);
 
@@ -359,7 +367,7 @@ public class ClientMenu
       {
         AnsiConsole.MarkupLine(
           "[grey]No transactions yet.[/]"
-          );
+        );
 
         return;
       }
@@ -371,7 +379,7 @@ public class ClientMenu
       transactionsTable.AddColumn("Amount");
       transactionsTable.AddColumn("Date");
 
-      foreach (var transaction in dashboard.RecentTransactions)
+      foreach (TransactionDto transaction in dashboard.RecentTransactions)
       {
         string color = transaction.Type switch
         {
@@ -386,7 +394,7 @@ public class ClientMenu
           $"{transaction.Amount:N2} GEL",
           transaction.CreatedAt.ToLocalTime()
             .ToString("dd.MM.yyyy HH:mm")
-          );
+        );
       }
 
       AnsiConsole.Write(transactionsTable);
@@ -396,5 +404,54 @@ public class ClientMenu
       AnsiConsole.MarkupLine(
         $"[red]{Markup.Escape(ex.Message)}[/]");
     }
+  }
+
+  private async Task ChangePasswordAsync(User user)
+  {
+    Console.Clear();
+
+    string currentPassword = AnsiConsole.Prompt(
+      new TextPrompt<string>("Enter current password:")
+        .Secret()
+    );
+
+    string newPassword = AnsiConsole.Prompt(
+      new TextPrompt<string>("Enter new password:")
+        .Secret()
+    );
+
+    string confirmPassword = AnsiConsole.Prompt(
+      new TextPrompt<string>("Confirm new password:")
+        .Secret()
+    );
+
+    if (newPassword.Length < 6)
+    {
+      AnsiConsole.MarkupLine(
+        "[red]Password must contain at least 6 characters![/]");
+      return;
+    }
+
+    if (newPassword != confirmPassword)
+    {
+      AnsiConsole.MarkupLine("[red]Passwords do not match![/]");
+      return;
+    }
+
+    bool result = await _userService.ChangePasswordAsync(
+      user.Id,
+      currentPassword,
+      newPassword
+    );
+
+    if (result)
+      AnsiConsole.MarkupLine(
+        "[green]Password changed successfully![/]");
+    else
+      AnsiConsole.MarkupLine(
+        "[red]Current password is incorrect![/]");
+
+    AnsiConsole.MarkupLine("\n[grey]Press any key to continue...[/]");
+    Console.ReadKey(true);
   }
 }

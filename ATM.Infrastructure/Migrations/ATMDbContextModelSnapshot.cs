@@ -74,6 +74,41 @@ namespace ATM.Infrastructure.Migrations
                     b.ToTable("LoanRequests");
                 });
 
+            modelBuilder.Entity("ATM.Domain.Models.Entities.PasswordRecovery", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("CodeHash")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("ExpiresAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("FailedAttempts")
+                        .HasColumnType("int");
+
+                    b.Property<bool>("IsUsed")
+                        .HasColumnType("bit");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId")
+                        .IsUnique();
+
+                    b.ToTable("PasswordRecoveries");
+                });
+
             modelBuilder.Entity("ATM.Domain.Models.Entities.Transaction", b =>
                 {
                     b.Property<int>("Id")
@@ -166,6 +201,17 @@ namespace ATM.Infrastructure.Migrations
                     b.Navigation("User");
                 });
 
+            modelBuilder.Entity("ATM.Domain.Models.Entities.PasswordRecovery", b =>
+                {
+                    b.HasOne("ATM.Domain.Models.Entities.User", "User")
+                        .WithOne("PasswordRecovery")
+                        .HasForeignKey("ATM.Domain.Models.Entities.PasswordRecovery", "UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("ATM.Domain.Models.Entities.Transaction", b =>
                 {
                     b.HasOne("ATM.Domain.Models.Entities.Account", "Account")
@@ -187,6 +233,8 @@ namespace ATM.Infrastructure.Migrations
                     b.Navigation("Account");
 
                     b.Navigation("LoanRequests");
+
+                    b.Navigation("PasswordRecovery");
                 });
 #pragma warning restore 612, 618
         }

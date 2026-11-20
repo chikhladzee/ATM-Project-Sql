@@ -19,4 +19,10 @@ public interface IUserService
 
   Task EnsureAdminExistsAsync(string username, string password);
   Task<List<UserDto>> GetAllUsersAsync(int adminId);
+
+  Task<bool> ChangePasswordAsync(
+    int userId,
+    string currentPassword,
+    string newPassword
+  );
 }

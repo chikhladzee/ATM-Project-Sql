@@ -10,12 +10,19 @@ public class ATMDbContext : DbContext
   {
   }
 
-  public ATMDbContext() {}
+  public ATMDbContext()
+  {
+  }
+
+  public DbSet<User> Users { get; set; }
+  public DbSet<Account> Accounts { get; set; }
+  public DbSet<Transaction> Transactions { get; set; }
+  public DbSet<LoanRequest> LoanRequests { get; set; }
+  public DbSet<PasswordRecovery> PasswordRecoveries { get; set; }
 
   protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
   {
     if (!optionsBuilder.IsConfigured)
-    {
       optionsBuilder.UseSqlServer(
         @"Server=localhost,1433;
          Database=ATMDb;
@@ -23,13 +30,7 @@ public class ATMDbContext : DbContext
          Password=AtmProject2026@;
          TrustServerCertificate=True;"
       );
-    }
   }
-
-  public DbSet<User> Users { get; set; }
-  public DbSet<Account> Accounts { get; set; }
-  public DbSet<Transaction> Transactions { get; set; }
-  public DbSet<LoanRequest> LoanRequests { get; set; }
 
   protected override void OnModelCreating(ModelBuilder modelBuilder)
   {
@@ -81,6 +82,15 @@ public class ATMDbContext : DbContext
 
       entity.Property(l => l.Status)
         .HasConversion<string>();
+    });
+
+    modelBuilder.Entity<PasswordRecovery>(entity =>
+    {
+      entity.Property(r => r.CodeHash)
+        .IsRequired();
+
+      entity.HasIndex(r => r.UserId)
+        .IsUnique();
     });
   }
 }
